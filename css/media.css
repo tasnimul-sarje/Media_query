@@ -1,0 +1,157 @@
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .es{
+    display: inline-block;
+  }
+  .sm{
+    display: none;
+  }
+  .md{
+    display: none;
+  }
+  .lg{
+    display: none;
+  }
+  .xl{
+    display: none;
+  }
+  .xxl{
+    display: none;
+  }
+  body{
+    background-color:red;
+  }
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .es{
+    display: none;
+  }
+  .sm{
+    display: inline-block;
+  }
+  .md{
+    display: none;
+  }
+  .lg{
+    display: none;
+  }
+  .xl{
+    display: none;
+  }
+  .xxl{
+    display: none;
+  }
+  body{
+    background-color: green;
+  }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.es{
+    display: none;
+  }
+  .sm{
+    display: none;
+  }
+  .md{
+    display: inline-block;
+  }
+  .lg{
+    display: none;
+  }
+  .xl{
+    display: none;
+  }
+  .xxl{
+    display: none;
+  }
+  body{
+    background-color: blue;
+  }
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .es{
+    display: none;
+  }
+  .sm{
+    display: none;
+  }
+  .md{
+    display: none;
+  }
+  .lg{
+    display: inline-block;
+  }
+  .xl{
+    display: none;
+  }
+  .xxl{
+    display: none;
+  }
+  body{
+    background-color: tomato;
+  }
+}
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.es{
+    display: none;
+  }
+  .sm{
+    display: none;
+  }
+  .md{
+    display: none;
+  }
+  .lg{
+    display: none;
+  }
+  .xl{
+    display: inline-block;
+  }
+  .xxl{
+    display: none;
+  }
+  body{
+    background-color: lightgreen;
+  }
+}
+
+
+/*// Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  .es{
+    display: none;
+  }
+  .sm{
+    display: none;
+  }
+  .md{
+    display: none;
+  }
+  .lg{
+    display: none;
+  }
+  .xl{
+    display: none;
+  }
+  .xxl{
+    display: inline-block;
+  }
+  body{
+    background-color: blue;
+  }
+}
+
